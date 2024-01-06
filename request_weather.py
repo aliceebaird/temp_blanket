@@ -5,11 +5,11 @@ import os
 import pandas as pd
 
 api_key = os.getenv("WEATHER_API_KEY")
-location = "10987"  # US Zip, worldwide city
+location = "London"  # US Zip, worldwide city
 base_url = "http://api.weatherapi.com/v1/history.json"
 
-start_date = datetime.date(2023, 1, 4)  # YYYY, M, D
-end_date = datetime.date(2024, 1, 4)
+start_date = datetime.date(2024, 1, 4)  # YYYY, M, D
+end_date = datetime.date(2024, 1, 6)
 # free calls only for the last year from current date
 current_date = start_date
 
